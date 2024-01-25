@@ -1,0 +1,5 @@
+int main () {
+    //calling non-existing function
+    nonexistingFun();
+    return;
+}

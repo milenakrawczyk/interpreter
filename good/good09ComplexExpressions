@@ -1,0 +1,11 @@
+int main () {
+    //evaluation of complex expressions
+
+    int resInt = (5 * 40 / 4 + 87 - 33) % 3;
+    print(resInt);
+
+    boolean resBool = true && false || false || 55 > 7;
+    print(resBool);
+
+    return 0;
+}

@@ -1,0 +1,20 @@
+int main() {
+    int i = 0;
+    while(i < 5) {
+        i++;
+        continue;
+        print("This is never printed!");
+    }
+
+    i = 0;
+    while(i < 5) {
+        i++;
+        break;
+    }
+
+    if (i == 1) {
+        print("Test for break passed"); //Equals to 1
+    }
+
+    return 0;
+}

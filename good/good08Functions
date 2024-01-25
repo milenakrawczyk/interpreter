@@ -1,0 +1,19 @@
+void printMe(string msg) {
+    print(msg);
+    return;
+}
+
+int main() {
+    printMe("Global function test passed!");
+
+    int theAnswerToEverything() {
+        return 42;
+    }
+
+    int answer = theAnswerToEverything();
+    if (answer == 42) {
+        print("Function in scope test passed!");
+    }
+
+    return 0;
+}

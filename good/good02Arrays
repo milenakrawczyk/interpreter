@@ -1,0 +1,14 @@
+int main() {
+    //array asignment
+    int a[5][5];
+    
+    a[0][1] = 6;
+
+    if (a[0][1] == 6) {
+        print("Test for array assignment passed!");
+    } else {
+        print("Test for array assignment failed!");
+    }
+
+    return 0;
+}

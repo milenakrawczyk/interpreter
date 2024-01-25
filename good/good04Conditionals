@@ -1,0 +1,28 @@
+int main() {
+    if (false) {
+        print("Conditionals ifelse test failed!");
+    } else {
+        print("Conditionals ifelse test passed!");
+    }
+
+    boolean flag = false;
+    if (flag) {
+        print("Conditionals ifelse test 2 failed!");
+    } else {
+        print("Conditionals ifelse test 2 passed!");
+    }
+
+    flag = true;
+    if (flag) {
+        print("Conditionals ifelse test 3 passed!");
+    } else {
+        print("Conditionals ifelse test 3 failed!");
+    }
+
+    boolean flag2 = false;
+    if (!flag2) {
+        print("Conditionals if test passed!");
+    }
+
+    return 0;
+}

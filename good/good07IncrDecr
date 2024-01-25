@@ -1,0 +1,18 @@
+int main () {
+    int i = 0;
+    i++;
+    if (i == 1) {
+        print("Increment test passed!");
+    } else {
+        print("Increment test failed!");
+    }
+
+    i--;
+    if (i == 0) {
+        print("Decrement test passed!");
+    } else {
+        print("Decrement test failed!");
+    }
+
+    return 0;
+}

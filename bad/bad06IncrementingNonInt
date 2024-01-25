@@ -1,0 +1,8 @@
+int main () {
+    print("If this is printed type validator failed!");
+    //incrementing non-int   
+    boolean flag = true;
+    flag++;
+
+    return 0;
+}

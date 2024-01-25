@@ -1,0 +1,17 @@
+int main() {
+    int(string, int) x = int (string a, int b) => {print(a); return b;};
+    
+    int functionAsParam(int(string,int) param1) {
+        return param1("This is printed inside lambda",4);
+    }
+
+    int c = functionAsParam(x);
+
+    if (c == 4)  {
+        print("Lambda test passed!");
+    } else {
+        print("Lambda test failed!");
+    }
+
+    return 0;
+}

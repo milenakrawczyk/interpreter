@@ -1,0 +1,8 @@
+int main () {
+    //Trying to evaluate logical expression with ints
+    print("If this is printed type validator failed!");
+
+    5 && true;
+
+    return 0;
+}

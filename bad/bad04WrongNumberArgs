@@ -1,0 +1,11 @@
+void myFun(int x) {
+    return;
+}
+
+int main() {
+    //wrong number of args
+    int x, y;
+    myFun(x,y);
+
+    return 0;
+}

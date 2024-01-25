@@ -1,0 +1,17 @@
+void incrementMe (int i) {
+    i++;
+    return;
+}
+
+int main () {
+    int x = 0;
+    incrementMe(x);
+
+    if (x == 1) {
+        print("Pass by reference test passed!");
+    } else {
+        print("Pass by reference test failed!");
+    }
+
+    return 0;
+}

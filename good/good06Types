@@ -1,0 +1,26 @@
+int main () {
+    //declaration without assignment
+    boolean flagNA;
+    string msgNA;
+    int numberNA;
+
+    //declaration with assignment
+    boolean flag = true;
+    string msg = "This is a nice string";
+    int number = 4;
+
+    //multideclaration without assignment
+    string a, b, c;
+
+    //multideclaration without assignment
+    //int d = 4, e = 5, c = 6;
+
+    //lambda without assignment
+    string (string,string)lambdaNA;
+    lambdaNA = string (string a, string b) => {print(a); return b;};
+
+    //lambda with assignment
+    string (string,string)lambda = string (string a, string b) => {print(a); return b;};
+
+    return 0;
+}

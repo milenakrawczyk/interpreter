@@ -1,0 +1,8 @@
+int main () {
+    int a[5][6][7];
+
+    //index out of scope
+    a[5][6][7] = 0; 
+    
+    return 0;
+}

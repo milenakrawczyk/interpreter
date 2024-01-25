@@ -1,0 +1,5 @@
+int main () {
+    c = 666;
+    //variable not defined
+    return 0;
+}
